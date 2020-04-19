@@ -87,7 +87,7 @@ else if (result && result.success === false){
 
     return(
     <div className="loginForms">
-      <h1>Techhead</h1>
+      <h1>Techhead ecommerce app coming soon May 15!</h1>
    Log In
    <InputField
    type='text'
