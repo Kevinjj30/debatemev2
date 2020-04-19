@@ -87,7 +87,7 @@ else if (result && result.success === false){
 
     return(
     <div className="loginForms">
-      <h1>Debate Me</h1>
+      <h1>Techhead</h1>
    Log In
    <InputField
    type='text'
@@ -102,6 +102,10 @@ else if (result && result.success === false){
 
    <SubmitButton
    text='Login'
+   disabled={this.state.buttonDisabled}
+   onClick={ () => this.dologin()}/>
+    <SubmitButton
+   text='Sign-up'
    disabled={this.state.buttonDisabled}
    onClick={ () => this.dologin()}/>
 
